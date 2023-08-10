@@ -1,5 +1,5 @@
 import React from "react";
-import header_image from '../assets/header_image.png';
+import header_image from '../assets/header_image.svg';
 // import head from "./head.css";
 function Header() {
 
@@ -9,7 +9,7 @@ function Header() {
       style={{ height: "auto",minHeight:'100vh' }}
     >
        <div className="ml-auto mr-auto w-3/6 h-3/6 rounded-full ">
-        <img src={header_image} className="  ml-auto mr-auto" alt="" />
+        <img src={header_image} className="pt-24  ml-auto mr-auto" alt="" />
       </div>
       <div className="w-3/6 md:w-full md:ml-12 ml-auto mr-auto md:mt-auto mt-12 md:mb-auto ml-12">
         <p className="text-white text-5xl font-thin">I'm Mayank Gupta</p>

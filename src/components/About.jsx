@@ -39,26 +39,9 @@ useEffect(()=>{
     <div id="about" ref={scrollToRef} className=" bg-dark ">
       <h3 className="text-5xl p-4  font-thin text-white text-center">About</h3>
       <p className="text-md p-4 font-extralight text-gray w-4/6 text-center ml-auto mr-auto">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam,
-        reprehenderit? Repellendus nulla incidunt expedita laborum cupiditate
-        rerum corporis provident atque, velit deserunt mollitia pariatur
-        eligendi laboriosam itaque earum! Tempore, optio accusamus voluptatibus
-        praesentium tenetur in cumque maxime nostrum alias porro sunt rerum quo
-        commodi aliquid molestiae a, aspernatur mollitia ratione saepe
-        distinctio quidem beatae! Sit minus ea est aperiam. Delectus quia amet
-        nam dolor impedit quo consequuntur! Adipisci ullam quia eos odit aliquid
-        commodi vitae, rerum dolorum vel voluptates doloribus ducimus at
-        corrupti iusto quibusdam, ipsa amet culpa itaque sunt deserunt debitis
-        architecto aut quas nobis. Illo itaque officia vitae porro non rem
-        tempora facere aperiam voluptates numquam aspernatur modi illum, aliquam
-        fugit reprehenderit alias dolorem ducimus molestiae! Impedit quis
-        maiores perspiciatis? Amet, aliquid tempora. Veniam delectus, dolore
-        amet ab blanditiis sapiente omnis magnam perspiciatis quia similique.
-        Maiores, praesentium. Exercitationem corrupti maiores necessitatibus a
-        aperiam deserunt maxime et, labore porro, facilis magnam animi nemo
-        quasi sint veritatis laborum odit possimus numquam perferendis fuga,
-        repellat minus reprehenderit sapiente! Corrupti sit incidunt iusto,
-        cumque maiores nobis itaque, temporibus sapiente dolore perspiciatis
+      Hi there , My name is Mayank Gupta a full stack developer and on the journey to become more than a developer.
+      With a huge interest and passion in technology I aspire to become a software engineer who will contribute in solving real life problems.
+      Along with coding I also do some design in photoshop. 
       
       </p>
       <div className="p-12 bg-gray-100 py-12">
