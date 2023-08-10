@@ -1,13 +1,16 @@
 import React, { useEffect } from "react";
-
+import {BiLogoJavascript,BiLogoReact,BiLogoTailwindCss} from 'react-icons/bi';
+import {SiAdobephotoshop} from 'react-icons/si'
+import {FaJava,FaNode} from 'react-icons/fa'
 function About({scrollToRef}) {
+
   const skillsData = [
-    { skill: 'JavaScript', level: 80 },
-    { skill: 'React', level: 85 },
-    { skill: 'Photoshop', level: 80 },
-    { skill: 'Node.js', level: 70 },
-    { skill: 'Tailwind CSS', level: 70 },
-    { skill: 'JAVA', level: 50 },
+    { skill: 'JavaScript', level: 80,icon:<BiLogoJavascript></BiLogoJavascript> },
+    { skill: 'React', level: 85,icon:<BiLogoReact></BiLogoReact> },
+    { skill: 'Photoshop', level: 80,icon:<SiAdobephotoshop></SiAdobephotoshop> },
+    { skill: 'Node.js', level: 70,icon:<FaNode></FaNode> },
+    { skill: 'Tailwind CSS', level: 70,icon:<BiLogoTailwindCss></BiLogoTailwindCss> },
+    { skill: 'JAVA', level: 50,icon:<FaJava></FaJava> },
   
     // Add more skills and levels here
   ];
@@ -64,7 +67,7 @@ useEffect(()=>{
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {skillsData.map((skill, index) => (
             <div key={index}>
-              <h3 className="text-xl text-white font-semibold mb-2">{skill.skill}</h3>
+              <h3 className="text-xl inline-flex text-white font-semibold mb-2">{skill.skill} <i className="ml-3 text-3xl text-gray">{skill.icon}</i> </h3>
               <div className="relative pt-1">
               
                 <div className="flex h-2 bg-gray-200 rounded-full">
