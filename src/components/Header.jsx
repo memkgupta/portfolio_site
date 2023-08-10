@@ -19,10 +19,7 @@ function Header() {
         <div className="flex flex-wrap md:w-3/6">
         <p className="mt-5  text-gray ">
        
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione,
-       eum quam error odio atque, facere, alias voluptatem aspernatur rem
-       corporis quas omnis fugiat aperiam dignissimos necessitatibus
-       tempora impedit illo cupiditate?
+     
     
    </p>
         </div>
