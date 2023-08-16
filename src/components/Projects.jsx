@@ -1,10 +1,12 @@
 import React from 'react'
 import  '../../styles/ihover.css'
+import project1 from '../assets/project1.png'
 function Projects() {
+
     const projectsData = [
         {
           title: 'Project 1',
-          image:'https://placehold.co/600x400',
+          image:project1,
           description: 'Description of Project 1',
           link: 'https://example.com/project1',
         },
